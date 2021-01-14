@@ -1,46 +1,258 @@
 <!DOCTYPE html>
-<html>
-  <head>
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width">
-    <title>repl.it</title>
-    <!--link href="style.css" rel="stylesheet" type="text/css" /-->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
-  </head>
-  <body>
-    <!--script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script-->
-    <script src="script.js"></script>
-    <div class="wrapper">
-      <nav id="sidebar">
-        <!-- Sidebar Header -->
-        <div class="sidebar-header">
-            <h3>Collapsible Sidebar</div>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+  <title>MyResume Bootstrap Template - Index</title>
+  <meta content="" name="description">
+  <meta content="" name="keywords">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i" rel="stylesheet">
+
+  <!-- Vendor CSS Files -->
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+  <link href="assets/vendor/icofont/icofont.min.css" rel="stylesheet">
+  <link href="assets/vendor/venobox/venobox.css" rel="stylesheet">
+  <link href="assets/vendor/aos/aos.css" rel="stylesheet">
+
+  <link href="assets/css/style.css" rel="stylesheet">
+
+</head>
+
+<body>
+
+  <main id="main">
+
+    <section id="about" class="about">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Alexey Tkachenko</h2>
         </div>
 
-        <!-- Sidebar Links -->
-        <ul class="list-unstyled components">
-          <li class="active"><a href="#">Home</a></li>
-          <li><a href="#">About</a></li>
-          <li><!-- Link with dropdown items -->
-            <a href="#homeSubmenu" data-toggle="collapse" aria-expanded="false">Pages</a>
-            <ul class="collapse list-unstyled" id="homeSubmenu">
-              <li><a href="#">Page</a></li>
-              <li><a href="#">Page</a></li>
-              <li><a href="#">Page</a></li>
-            </ul>
-          <li><a href="#">Portfolio</a></li>
-          <li><a href="#">Contact</a></li>
-        </ul>
-      </nav>
+        <div class="row">
+          <div class="col-lg-4">
+            <img src="assets/img/profile-img.jpg" class="img-fluid" alt="">
+          </div>
+          <div class="col-lg-8 pt-4 pt-lg-0 content">
+            <h3>Software Developer, IT Architect &amp; Project Manager</h3>
+            <div class="row">
+              <div class="col-lg-6">
+                <ul>
+                  <li><i class="icofont-rounded-right"></i> <strong>Birthday:</strong> 27 December 1979</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Email:</strong> alek.tkachenko@outlook.com</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>Phone:</strong> +65 9690 5049</li>
+                  <li><i class="icofont-rounded-right"></i> <strong>City:</strong> Singapore</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
 
-      <div id="content">
-        <button type="button" id="sidebarCollapse" class="navbar-btn">
-          <span></span>
-          <span></span>
-          <span></span>
-        </button>
-      <div>
+      </div>
+    </section>
 
-    </div>
-  </body>
+
+    <section id="resume" class="resume">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Resume</h2>
+          <p>
+            19 years of diverse and extensive experience in software development as a programmer, software architect and project manager.
+            Experience with financial IT systems (in areas of equities, derivatives, FX, crypto and market risk). 
+            A self-motivated and results oriented team player with good communication skills.
+          </p>
+      </div>
+
+        <div class="row">
+
+          <div class="col-lg-6">
+            <h3 class="resume-title">Professional Experience</h3>
+
+            <div class="resume-item">
+              <h4>Software Developer</h4>
+              <h5>07.2019 - 10.2020</h5>
+              <p><em>Laplace Research Capital, Singapore</em></p>
+              <p>I was working on a core platform and components of in-house crypto trading system:
+                market data capture layer, feed handlers, order book builders, order execution simulator (part of regression tests and back-tester), order gateways, order manager -
+                essentially all pieces of trading system except indicators and a strategy.
+                We trade on Asian crypto exchanges: Bitflyer, Okex, Huobi, Liquid, GMO...</p>
+            </div>
+
+            <div class="resume-item">
+              <h4>VP/IT Architect</h4>
+              <h5>06.2016 - 06.2019</h5>
+              <p><em>Credit Suisse, Singapore</em></p>
+              <p>I designed and developed direct market connectivity layer which provides order execution with APAC stock exchanges (Korea, HK, SG...)</p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Associate Director/IT Architect</h4>
+              <h5>05.2014 - 05.2016</h5>
+              <p><em>Credit Agricole CIB, Singapore</em></p>
+              <p>I took charge of newly created RUL team in risk and regulatory reporting department (RFI) at CACIB. As a manager, I supervised 4 sub-teams:</p>
+              <ul>
+                <li>POLE - banking and trading book risk calculation (VaR, ES);</li>
+                <li>CADRE - VaR and PnL consolidation and back-testing;</li>
+                <li>MARS - common storage of referential data;</li>
+                <li>RUBI - regulatory reporting.</li>
+              </ul>
+              <p>As part of my architect role I participated in initial phase of research and prototyping of new global risk and finance platform based on Big Data technology (Hadoop, Spark)</p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Senior Software Developer</h4>
+              <h5>06.2013 - 05.2014</h5>
+              <p><em>Credit Agricole CIB, Singapore</em></p>
+              <p>I worked in Jetstream team (in-house FX e-commerce trading system) on replacement of old market connectivity layer.</p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Software Developer</h4>
+              <h5>08.2011 - 06.2013</h5>
+              <p><em>Standard Chartered, Singapore</em></p>
+              <p>
+                I worked on eCommerce FX trading platform as C++ server side software developer.
+                I've implemented smart order router component (sophisticated order execution using selected strategy) as part of Automatic Risk Management system.
+                Apart from this I worked on other projects:
+              </p>
+              <ul>
+                <li>Developed RMDS publisher server that publishes our pricing data to clients at trading desks using RMDS channel;</li>
+                <li>Developed ECN connectivity automated test framework using Python;</li>
+                <li>Implemented MTM Profit & Loss reporting server.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Senior Software Developer</h4>
+              <h5>08.2010 - 04.2011</h5>
+              <p><em>Bank of America Merrill Lynch, Singapore</em></p>
+              <p>
+                I participated in development of BAML FX trading system.
+                I was responsible for maintenance and development of market data access layer: Market Data Adaptors, simulation of market data from different sources, streaming market data to external clients.
+                I also improved network infrastructure (TibRV, UDP Multicast, routing).
+              </p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Senior Software Developer</h4>
+              <h5>10.2008 - 08.2010</h5>
+              <p><em>Kaspersky Lab, Moscow, Russia</em></p>
+              <p>I worked on products: Kaspersky Antivirus for Unix Fileserver 8.0, Kaspersky Antivirus for Linux Workstation and Kaspersky Hosted Security Services.</p>
+              <ul>
+                <li>Implemented Administrative Console for KAV for UNIX Fileserver;</li>
+                <li>Created several server side modules (scheduler, serialization, quarantine ...);</li>
+                <li>Created Testing Facade for QA and Support team;</li>
+                <li>Was a team lead in project of porting KAV for Workstation source code from Windows to Linux.</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Senior Software Developer</h4>
+              <h5>03.2008 - 09.2008</h5>
+              <p><em>Unison Technologies, Saint-Petersburg, Russia</em></p>
+              <p>I worked in startup company on product that unifies office communication (www.unison.com) - combines phone, email, calendar and instant messaging into one product.</p>
+              <ul>
+                <li>I implemented IMAP access library;</li>
+                <li>I also worked on modification and improving of SIP/RTP server components and fixed eJabberd server (implemented in Erlang).</li>
+              </ul>
+            </div>
+
+            <div class="resume-item">
+              <h4>Software Developer/Team Lead</h4>
+              <h5>05.2007 - 01.2008</h5>
+              <p><em>Exigen Services, Saint-Petersburg, Russia</em></p>
+              <p><em>Deutsche Bank, New York, USA</em></p>
+              <p>I worked as a Team Lead in outsourcing project of upgrading and enhancing Portfolio Investment Management System for Deutsche Bank. My responsibilities included:</p>
+              <ul>
+                <li>Manangement of a group of four developers working on implementation of Swaps securities;</li>
+                <li>Collaboration with business analysts working on functional requirements;</li>
+                <li>Work breakdown structure and time estimation;</li>
+                <li>Implementation of critical parts of the system.</li>
+              </ul>
+              <p>I sucessefully completed the project and was awarded "The Best New Employee of the Year".</p>
+            </div>
+
+            <div class="resume-item">
+              <h4>Software Developer/Team Lead</h4>
+              <h5>11.2005 - 12.2006</h5>
+              <p><em>Quest Software (now Dell), Saint-Petersburg, Russia</em></p>
+              <p>I participated in development of two products: QMX for SCCM and VAS.</p>
+              <ul>
+                <li>QMX for SCCM (former Vintela Management Extension for SMS) is a system management solution that extends MS SCCM management infrastructure to UNIX boxes. I designed Patch Management extension for SMS 2003;</li>
+                <li>VAS (Vintela Authentication Services) is an identity management solution that allows using Active Directory user credentials to login into UNIX machines. I was a team lead in OAT project - a set of tools for aligning file ownership on different UNIX machines in Active Directory domain.</li>
+              </ul>
+            </div>
+
+          </div>
+
+          <div class="col-lg-6">
+            <h3 class="resume-title">Education</h3>
+            <div class="resume-item">
+              <h4>MSc in Finance</h4>
+              <h5>2009 - 2013</h5>
+              <p><em>Russian Presidential Academy of National Economy and Public Administration, Moscow, Russia</em></p>
+            </div>
+            <div class="resume-item">
+              <h4>Automated Control Systems, Undergraduate</h4>
+              <h5>1996 - 2001</h5>
+              <p><em>Baltijskij Gosudarstvennyj Tehniceskij Universitet im. Ustinova (Voenmeh), Saint-Petersburg, Russia</em></p>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </section>
+
+    <section id="contact" class="contact">
+      <div class="container" data-aos="fade-up">
+
+        <div class="section-title">
+          <h2>Contact</h2>
+        </div>
+
+        <div class="row mt-1">
+
+          <div class="col-lg-4">
+            <div class="info">
+
+              <div class="email">
+                <i class="icofont-envelope"></i>
+                <h4>Email:</h4>
+                <p>alexey.tkachenko@outlook.com</p>
+              </div>
+
+              <div class="phone">
+                <i class="icofont-phone"></i>
+                <h4>Call:</h4>
+                <p>+65 9690 5040</p>
+              </div>
+
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+  </main>
+
+  <script src="assets/vendor/jquery/jquery.min.js"></script>
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.bundle.min.js" integrity="sha384-LtrjvnR4Twt/qOuYxE721u19sVFLVSA4hf/rRt6PrZTmiPltdZcI7q7PXQBYTKyf" crossorigin="anonymous"></script>
+  <script src="assets/vendor/jquery.easing/jquery.easing.min.js"></script>
+  <script src="assets/vendor/waypoints/jquery.waypoints.min.js"></script>
+  <script src="assets/vendor/counterup/counterup.min.js"></script>
+  <script src="assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
+  <script src="assets/vendor/venobox/venobox.min.js"></script>
+  <script src="assets/vendor/owl.carousel/owl.carousel.min.js"></script>
+  <script src="assets/vendor/aos/aos.js"></script>
+
+  <script src="assets/js/main.js"></script>
+
+</body>
+
 </html>
